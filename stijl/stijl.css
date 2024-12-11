@@ -34,6 +34,8 @@ main div{
 }
 main div .tekst{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main div .foto2{
@@ -42,30 +44,30 @@ main div .foto2{
 }
 main .container{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 300px 300px 300px;
     margin-top: 50px;
     justify-content: space-between;
     
 }
 main .container .huis{
-    height: 350px;
     width: 350px;
+    height: 350px;
     border: 5px solid lightblue;
 }
 main .container .plattegrond{
     height: 350px;
-    width: 350px;
     border: 5px solid lightblue;
 }
 main .container .ligging{
-    width: 400px;
     height: 350px;
     border: 5px solid lightblue;
 }
 main .onderkant{
-    background-color: gainsboro;
+    background-color: gray;
     display: flex;
     justify-content: space-between;
+    color: white;
+    height: 20px;
 }
 
 /* eind main */
