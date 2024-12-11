@@ -1,0 +1,60 @@
+/* algemene css */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* eind algemene css */
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header .logo img{
+    height: 100px;
+    width: 100px;
+}
+header nav .menu-items{
+    display: flex;
+}
+header nav .menu-items .menu-item{
+    list-style-type: none;
+}
+header nav .menu-items .menu-item .btn{
+    margin: 5px 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+/* eind header */
+/* main */
+main div{
+    display: flex;
+}
+
+main div .foto2{
+    height: 300px;
+    border-radius: 15px;
+}
+main .container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    margin-top: 50px;
+    
+}
+main .container .huis{
+    height: 350px;
+    width: 450px;
+    border: 5px solid lightcyan;
+}
+main .container .plattegrond{
+    height: 350px;
+    width: 400px;
+    border: 5px solid lightcyan;
+}
+main .container .ligging{
+    height: 300px;
+    border: 5px solid lightcyan;
+}
+/* eind main */
+/*  footer*/
+/*  eind footer*/
