@@ -10,8 +10,7 @@ header{
     justify-content: space-between;
 }
 header .logo img{
-    height: 100px;
-    width: 100px;
+    
 }
 header nav .menu-items{
     display: flex;
@@ -55,6 +54,12 @@ main .container .ligging{
     height: 300px;
     border: 5px solid lightcyan;
 }
+main .onderkant{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* eind main */
 /*  footer*/
 /*  eind footer*/
