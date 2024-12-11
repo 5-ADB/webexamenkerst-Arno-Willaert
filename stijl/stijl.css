@@ -4,6 +4,7 @@
     padding: 0;
 }
 /* eind algemene css */
+
 /* header */
 header{
     display: flex;
@@ -23,11 +24,16 @@ header nav .menu-items .menu-item .btn{
     padding: 5px;
     text-decoration: none;
     color: black;
+    font-size: larger;
 }
 /* eind header */
+
 /* main */
 main div{
     display: flex;
+}
+main div .tekst{
+    flex-direction: column;
 }
 
 main div .foto2{
@@ -38,21 +44,23 @@ main .container{
     display: grid;
     grid-template-columns: 350px 350px 350px;
     margin-top: 50px;
+    justify-content: space-between;
     
 }
 main .container .huis{
     height: 350px;
-    width: 450px;
-    border: 5px solid lightcyan;
+    width: 350px;
+    border: 5px solid lightblue;
 }
 main .container .plattegrond{
     height: 350px;
-    width: 400px;
-    border: 5px solid lightcyan;
+    width: 350px;
+    border: 5px solid lightblue;
 }
 main .container .ligging{
-    height: 300px;
-    border: 5px solid lightcyan;
+    width: 400px;
+    height: 350px;
+    border: 5px solid lightblue;
 }
 main .onderkant{
     background-color: gainsboro;
